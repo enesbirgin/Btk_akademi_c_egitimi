@@ -12,6 +12,7 @@ namespace Btk_akademi_c_egitimi._10._Sınıflarla_Çalısmak
         { }
 
 
+
         public int Id { get; set; }
         private string _firstName;
         public string Firstname
