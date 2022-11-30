@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66116B8A-492B-44DB-918A-7056752333A1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Btk_akademi_c_egitimi</RootNamespace>
+    <AssemblyName>Btk_akademi_c_egitimi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="10. Sınıflarla Çalısmak\_classlar icinde property_tanımlamak.cs" />
+    <Compile Include="10. Sınıflarla Çalısmak\_Encapsulation.cs" />
+    <Compile Include="4.verittipleri\_bool_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_byte_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_char_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_decimal_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_double_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_integer_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_Long_Veri_Tipi.cs" />
+    <Compile Include="4.verittipleri\_short_veri_tipi.cs" />
+    <Compile Include="4.verittipleri\_var_keyword.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\demo_coklu_şartlarla_çalışmak.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\if bloklarıyla calısmaya baslamak.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\single_line _if _ile_ calısmak.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\_Else_if_bloğuyla Çalısmak.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\_iç_içe if bloklarıyla çalışmak.cs" />
+    <Compile Include="5.şart blokları ile çalısmak\_switch_bloğuyla_calısmak.cs" />
+    <Compile Include="6.Metotlar\metot_overloading.cs" />
+    <Compile Include="6.Metotlar\neden_metot_kullanıyoruz.cs" />
+    <Compile Include="6.Metotlar\parametreli_metotlarla_calısmak.cs" />
+    <Compile Include="6.Metotlar\_defaul_parametreli_metotlarla_calısmak.cs" />
+    <Compile Include="7. Diziler\_cok_boyutlu_diziler.cs" />
+    <Compile Include="7. Diziler\_dizilerr.cs" />
+    <Compile Include="8.Döngüler\_do_while_döngüsü.cs" />
+    <Compile Include="8.Döngüler\_for_döngüsü.cs" />
+    <Compile Include="8.Döngüler\_for_Each_Döngüsü.cs" />
+    <Compile Include="8.Döngüler\_while_döngüsü.cs" />
+    <Compile Include="8.Döngüler\örnekk_uygulama_asal_sayı.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Proje 1\formm_proje.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="9. _String_ile_calismak\strings_ile_calısmaya_baslamak%28VERİ TİPİ%29.cs" />
+    <Compile Include="9. _String_ile_calismak\string_metodlarıyla_calısmak.cs" />
+    <Compile Include="ÖRNEKLER\for döngüsü_girilen mesajı 5 defa yazdırmak.cs" />
+    <Compile Include="ÖRNEKLER\girilen sayının pozitif negatif olma durumu.cs" />
+    <Compile Include="ÖRNEKLER\hesap makinası.cs" />
+    <Compile Include="ÖRNEKLER\hesap makinası2.cs" />
+    <Compile Include="ÖRNEKLER\hoşgeldiniz.cs" />
+    <Compile Include="ÖRNEKLER\if hız ve mesafe.cs" />
+    <Compile Include="ÖRNEKLER\if-else iki sayıyı kıyaslama.cs" />
+    <Compile Include="ÖRNEKLER\iki sayıyı toplama.cs" />
+    <Compile Include="ÖRNEKLER\KDV hesaplama.cs" />
+    <Compile Include="ÖRNEKLER\maaş kesinti hesaplama.cs" />
+    <Compile Include="ÖRNEKLER\maaş.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
